@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1200px){
+    body{
+        width: 110%;
+    }
+    .wrapper{
+        padding: 0 5% 0 5%;
+    }
+    .nav-container{
+        display: none;
+    }
+    .menu-adaptive{
+        display: flex;
+    }
+    .services{
+        position: relative;
+    }
+    .services-content{
+        position: absolute;
+        width: 100%;
+        top:0px
+    }
+    .menu{
+        padding-top: 30px;
+        width: 90%;
+    }
+    .services-description{
+        position: absolute;
+        width: 100%;
+        bottom: 20px;
+        left: -40px;
+    }
+    .priority-content-links{
+        display: flex;
+        width: auto;
+        gap:20px;
+    }
+    .priority-content{
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+    }
+    .priority-sectors{
+        padding-top: 50px;
+        height: 580px;
+    }
+    .priority-button{
+        width: 328px;
+        height: 90px;
+    }
+    .sites{
+        position: absolute;
+        width: 90%;
+        top: 20%;
+    }
+    .services-content{
+        position: absolute;
+    }
+    .keys{
+        position: relative;
+    }
+    .right-side{
+        position: flex;
+        flex-direction: column;
+        margin-left: 0%;
+        margin-top: 200px;
+    }
+    .sites-content{
+        margin-left: 110px;
+    }
+    .news-title{
+        padding-top:50px;
+    }
+    .news-cards{
+        flex-direction: column;
+        margin-left: 10%;
+    }
+}
